@@ -1,0 +1,22 @@
+{
+  "name": "onlineserver",
+  "version": "1.0.0",
+  "description": "online server for API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntthanhvy/onlineServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntthanhvy/onlineServer/issues"
+  },
+  "homepage": "https://github.com/ntthanhvy/onlineServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
