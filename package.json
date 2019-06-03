@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ntthanhvy/onlineServer#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pm2": "^3.5.1"
   }
 }
