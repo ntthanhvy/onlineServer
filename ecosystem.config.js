@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-      name: 'tutorial-2',
+      name: 'onlineAPIServer',
       script: './index.js'
     }],
     deploy: {
