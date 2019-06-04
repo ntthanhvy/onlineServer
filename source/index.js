@@ -13,7 +13,7 @@ app.use(
 
 const db = new Pool({
     user: process.env.ADMISSION_DB_USER,
-    host: '18.188.89.217',
+    host: '172.0.0.1',
     port: 5432,
     database: 'farcryonline',
     password: null
