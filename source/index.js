@@ -24,10 +24,6 @@ app.get('/', (req, res) => {
 })
 
 app.get('/player', (req, res) => {
-    res.json({'message': 'This should get the player'})
-})
-
-app.post('/player', (req, res) => {
     try {
         const { rows } = db.query("SELECT * FROM player");
         return res.status(200).json(rows)
